@@ -8,7 +8,7 @@ We will now install the kubernetes components
 
 ## Prerequisites
 
-The commands in this lab must be run on first worker instance: `worker-1`. Login to first worker instance using SSH Terminal.
+Some commands in this lab must be run on first worker instance: `worker-1`. Login to first worker instance using SSH Terminal. Check the command boxes, if the command needs to run on master oder worker node!
 
 ### Provisioning  Kubelet Client Certificates
 
