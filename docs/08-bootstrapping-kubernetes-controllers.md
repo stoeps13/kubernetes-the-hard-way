@@ -113,6 +113,8 @@ WantedBy=multi-user.target
 EOF
 ```
 
+**Update:** _*I had to change `--runtime-config=api/all` to `--runtime-config=api/all=true`. The apiserver didn't start with the old entry. I removed the swagger-ui, because the start command said it's deprecated.*_
+
 ### Configure the Kubernetes Controller Manager
 
 Move the `kube-controller-manager` kubeconfig into place:
